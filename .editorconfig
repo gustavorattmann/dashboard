@@ -1,0 +1,19 @@
+# Localizar editorconfig na raiz do projeto
+root = true
+
+# Estilo unix de novas linhas sem criar uma nova linha no final de cada arquivo
+[*]
+end_of_line = lf
+insert_final_newline = false
+
+# Definir estilo para vários arquivos
+[*.{html,css,js,json,sql}]
+charset = utf-8
+
+# Indentação
+[*.{html,js}]
+indent_style = tab
+
+[*.{css,json,sql}]
+indent_style = space
+indent_size = 2
